@@ -2,11 +2,6 @@ package leetcode
 
 // https://leetcode.com/problems/swap-nodes-in-pairs/
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func swapPairs(head *ListNode) *ListNode {
 	pos := *head
 
